@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1_1">
+
+
+    <TextView
+        android:id="@+id/tx1_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="运动小常识"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:textColor="@color/text_black"/>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/im1_1"
+            android:onClick="onClick"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/youyang" />
+
+        <TextView
+            android:id="@+id/textView1_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/im1_2"
+            android:onClick="onClick"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/warm" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/im1_3"
+            android:onClick="onClick"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/loseweight" />
+
+        <TextView
+            android:id="@+id/textView1_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+
+        <ImageButton
+            android:id="@+id/im1_4"
+            android:onClick="onClick"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/clothes" />
+    </LinearLayout>
+
+
+</LinearLayout>

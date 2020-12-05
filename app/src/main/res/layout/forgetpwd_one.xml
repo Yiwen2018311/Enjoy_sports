@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:id="@+id/findpwd_one">
+
+    <TextView
+        android:id="@+id/tvtv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="找回密码"
+        android:textSize="30sp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/tv9"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="请输入你的用户名："
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_marginBottom="28dp"
+        android:layout_above="@+id/layout_forgetpwd_et_username"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/layout_forgetpwd_et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="用户名"
+        android:textColor="#fff"
+        android:layout_above="@+id/layout_forgetpwd_btn_ok"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp" />
+
+    <Button
+        android:id="@+id/layout_forgetpwd_btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="41dp"
+        android:background="@color/colorPrimary"
+        android:text="返回登录页面"
+        android:textColor="#fff"
+        android:layout_marginBottom="213dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp" />
+
+    <Button
+        android:id="@+id/layout_forgetpwd_btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="确认"
+        android:textColor="#fff"
+        android:layout_alignBaseline="@+id/layout_forgetpwd_btn_back"
+        android:layout_toEndOf="@+id/layout_forgetpwd_btn_back"
+        android:layout_marginStart="100dp" />
+
+</RelativeLayout>

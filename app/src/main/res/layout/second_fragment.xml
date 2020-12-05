@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1_2">
+
+    <VideoView
+        android:id="@+id/vdd2"
+        android:layout_width="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_height="200dp" />
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_below="@+id/vdd2"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:divider="@null" />
+
+</RelativeLayout>

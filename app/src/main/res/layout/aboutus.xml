@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.example.admin.qimoapp.Personalinfo.TitleLayout
+            android:id="@+id/tl_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </com.example.admin.qimoapp.Personalinfo.TitleLayout>
+        <TextView
+            android:id="@+id/abouttx1"
+            android:layout_below="@+id/tl_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="@color/text_black"
+            android:gravity="center"
+            android:text="动力无限是一款以运动教学为核心的运动健康类APP" />
+
+        <TextView
+            android:id="@+id/abouttx2"
+            android:layout_below="@+id/tl_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="@color/text_black"
+            android:gravity="center"
+            android:text="充分利用网络资源，不限时间和场地的约束，号召全民运动" />
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
